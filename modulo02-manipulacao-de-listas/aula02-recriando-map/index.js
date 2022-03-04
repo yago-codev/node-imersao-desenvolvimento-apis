@@ -30,7 +30,6 @@ async function main() {
         name: `${name}`,
       }
     })
-    console.log('Resultado: ', names)
   } catch (error) {
     console.error(`Deu ruim ${error} 💣`)
   }
